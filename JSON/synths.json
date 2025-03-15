@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "name": "Echo",
+    "type": "Synth",
+    "settings": {
+      "volume": 0,
+      "detune": 0,
+      "portamento": "0",
+      "envelope": {
+        "attack": "0.095",
+        "attackCurve": "linear",
+        "decay": "0.1",
+        "decayCurve": "exponential",
+        "release": "1.125",
+        "releaseCurve": "exponential",
+        "sustain": "0.505"
+      },
+      "oscillator": {
+        "partialCount": 0,
+        "partials": [],
+        "phase": 0,
+        "type": "fatsine",
+        "count": 3,
+        "spread": 25
+      }
+    }
+  },
+  {
+    "name": "Box",
+    "type": "Synth",
+    "settings": {
+      "volume": 0,
+      "detune": 0,
+      "portamento": "0",
+      "envelope": {
+        "attack": "0.005",
+        "attackCurve": "linear",
+        "decay": "0.1",
+        "decayCurve": "exponential",
+        "release": "1",
+        "releaseCurve": "step",
+        "sustain": "0.405"
+      },
+      "oscillator": {
+        "partialCount": 4,
+        "partials": [
+          1.2732395447351628,
+          0,
+          0.4244131815783876,
+          0
+        ],
+        "phase": 0,
+        "type": "fmsquare4",
+        "harmonicity": 0.8,
+        "modulationIndex": 3,
+        "modulationType": "triangle"
+      }
+    }
+  }
+]
